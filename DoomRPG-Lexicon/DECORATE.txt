@@ -356,14 +356,14 @@ ACTOR AfritRPG : Afrit replaces Afrit 20209
 	States
 	{
 	Spawn:
-		TNT1 A 0 NoDelay ACS_NamedExecuteAlways("MonsterInit", 0)
+		TNT1 A 0 NoDelay ACS_NamedExecuteAlways("MonsterInit", 0, MF_BOSS)
 		Goto Super::Spawn
 	See:
-		TNT1 A 0 ACS_NamedExecuteAlways("MonsterInit", 0)
+		TNT1 A 0 ACS_NamedExecuteAlways("MonsterInit", 0, MF_BOSS)
 		Goto Super::See
 	}
 }
-<<<<<<< HEAD
+
 ACTOR EvilMarineRPG : EvilMarine replaces EvilMarine 20208
 {
     Tag "Evil Marine"
@@ -377,22 +377,8 @@ ACTOR EvilMarineRPG : EvilMarine replaces EvilMarine 20208
 		TNT1 A 0 ACS_NamedExecuteAlways("MonsterInit", 0)
 		Goto Super::See
 	}
-=======
-ACTOR EvilMarineRPG : EvilMarine replaces EvilMarine 20208
-{
-    Tag "Evil Marine"
-
-	States
-	{
-	Spawn:
-		TNT1 A 0 NoDelay ACS_NamedExecuteAlways("MonsterInit", 0)
-		Goto Super::Spawn
-	See:
-		TNT1 A 0 ACS_NamedExecuteAlways("MonsterInit", 0)
-		Goto Super::See
-	}
->>>>>>> master
 }
+
 // --------------------------------------------------
 // Epic 1
 
@@ -1226,3 +1212,19 @@ ACTOR CHXBossBrainRPG : CHXBossBrain replaces CHXBossBrain
         Goto Super::Spawn
 	}
 }
+
+// --------------------------------------------------
+// 	Shai'tan's Luck
+//in the same doom editor number range as daedalus like schyth 2 - seeker
+
+actor SLCactusRPG : SLCactus replaces SLCactus 20405
+{}
+
+actor SLStoneRPG : SLStone replaces SLStone 20406
+{}
+
+actor SLTreeRPG : SLTree replaces SLTree 20407
+{}
+
+actor SLPalmRPG : SLPalm replaces SLPalm 20408
+{}
