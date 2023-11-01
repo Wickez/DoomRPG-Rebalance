@@ -951,7 +951,7 @@ ACTOR ValiantSpectreRPG : ValiantSpectre replaces ValiantSpectre
 	}
 }
 
-// Lost Soul
+// Lost Soul just have less health should proble be removed
 ACTOR ValiantLostSoulRPG : ValiantLostSoul replaces ValiantLostSoul
 {
     Tag "Lost Soul"
@@ -1047,7 +1047,7 @@ ACTOR SuicideBomberRPG : SuicideBomber replaces SuicideBomber
 	}
 }
 
-// Cybruiser
+// Cybruiser only have 500 helth but take no splash serve simler role to 1000 helth cyber Demons seen in many slaughter wads not a boss monster- seeker
 ACTOR ValiantCybruiserRPG : ValiantCybruiser replaces ValiantCybruiser
 {
     Tag "Cybruiser"
@@ -1055,15 +1055,15 @@ ACTOR ValiantCybruiserRPG : ValiantCybruiser replaces ValiantCybruiser
 	States
 	{
 	Spawn:
-		TNT1 A 0 NoDelay ACS_NamedExecuteAlways("MonsterInit", 0, MF_BOSS)
+		TNT1 A 0 NoDelay ACS_NamedExecuteAlways("MonsterInit", 0)
 		Goto Super::Spawn
 	See:
-		TNT1 A 0 ACS_NamedExecuteAlways("MonsterInit", 0, MF_BOSS)
+		TNT1 A 0 ACS_NamedExecuteAlways("MonsterInit", 0)
 		Goto Super::See
 	}
 }
 
-// Spider Mastermind
+// Spider Mastermind only difrence betwn this and normal spider mastermind is this one takes splash due to dehacked stuff
 ACTOR ValiantSpiderMastermindRPG : ValiantSpiderMastermind replaces ValiantSpiderMastermind
 {
     Tag "Spider Mastermind"
@@ -1215,7 +1215,7 @@ ACTOR CHXBossBrainRPG : CHXBossBrain replaces CHXBossBrain
 
 // --------------------------------------------------
 // 	Shai'tan's Luck
-//in the same doom editor number range as daedalus like schyth 2 - seeker
+//in the same doom editor number range as daedalus like schyth 2
 
 actor SLCactusRPG : SLCactus replaces SLCactus 20405
 {}
