@@ -6,7 +6,7 @@ actor DRPGLexiconActive {}
 // Disco Imp
 ACTOR TAT__DiscoImpRPG : TAT__DiscoImp replaces TAT__DiscoImp
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -22,7 +22,7 @@ ACTOR TAT__DiscoImpRPG : TAT__DiscoImp replaces TAT__DiscoImp
 // Disco Imp Red
 ACTOR TAT__DiscoImpRedRPG : TAT__DiscoImpRed replaces TAT__DiscoImpRed
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -38,7 +38,7 @@ ACTOR TAT__DiscoImpRedRPG : TAT__DiscoImpRed replaces TAT__DiscoImpRed
 // Disco Imp Green
 ACTOR TAT__DiscoImpGreenRPG : TAT__DiscoImpGreen replaces TAT__DiscoImpGreen
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -54,7 +54,7 @@ ACTOR TAT__DiscoImpGreenRPG : TAT__DiscoImpGreen replaces TAT__DiscoImpGreen
 // Disco Imp Blue
 ACTOR TAT__DiscoImpBlueRPG : TAT__DiscoImpBlue replaces TAT__DiscoImpBlue
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -70,7 +70,7 @@ ACTOR TAT__DiscoImpBlueRPG : TAT__DiscoImpBlue replaces TAT__DiscoImpBlue
 // Disco Imp Blood
 ACTOR TAT__DiscoImpBloodRPG : TAT__DiscoImpBlood replaces TAT__DiscoImpBlood
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -86,7 +86,7 @@ ACTOR TAT__DiscoImpBloodRPG : TAT__DiscoImpBlood replaces TAT__DiscoImpBlood
 // Disco Imp Gold
 ACTOR TAT__DiscoImpGoldRPG : TAT__DiscoImpGold replaces TAT__DiscoImpGold
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -102,7 +102,7 @@ ACTOR TAT__DiscoImpGoldRPG : TAT__DiscoImpGold replaces TAT__DiscoImpGold
 // Disco Imp Brown
 ACTOR TAT__DiscoImpBrownRPG : TAT__DiscoImpBrown replaces TAT__DiscoImpBrown
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -118,7 +118,7 @@ ACTOR TAT__DiscoImpBrownRPG : TAT__DiscoImpBrown replaces TAT__DiscoImpBrown
 // Disco Imp Orange
 ACTOR TAT__DiscoImpOrangeRPG : TAT__DiscoImpOrange replaces TAT__DiscoImpOrange
 {
-    Tag "Imp"
+    Tag "Disco Imp"
 
 	States
 	{
@@ -433,7 +433,7 @@ ACTOR Epic1A11RPG : Epic1A11 replaces Epic1A11
 // Chaingun Guy
 ACTOR Epic1A9RPG : Epic1A9 replaces Epic1A9
 {
-    Tag "ChaingunGuy"
+    Tag "Chaingun Guy"
 
 	States
 	{
@@ -500,7 +500,7 @@ ACTOR Epic2A37RPG : Epic2A37 replaces Epic2A37
 // Wolfenstein SS
 ACTOR Epic2A38RPG : Epic2A38 replaces Epic2A38
 {
-    Tag "Wolfenstein SS"
+    Tag "Stealth Alien"
 
 	States
 	{
@@ -791,7 +791,7 @@ ACTOR AAA32RPG : AAA32 replaces AAA32
 // Stealth Plasma Alien
 ACTOR AAA33RPG : AAA33 replaces AAA33
 {
-    Tag "Stealth Plasma Alien"
+    Tag "Alien Stealth Trooper"
 
 	States
 	{
@@ -855,10 +855,10 @@ ACTOR SD20x6A4RPG : SD20x6A4 replaces SD20x6A4
 	}
 }
 
-// Afrit
+// Afrit renamed becaus weaker than there scyth version and the purple color
 ACTOR SD20x7A9RPG : SD20x7A9 replaces SD20x7A9
 {
-    Tag "Afrit"
+    Tag "Drained Afrit"
 
 	States
 	{
@@ -890,7 +890,7 @@ ACTOR SD20x7A8RPG : SD20x7A8 replaces SD20x7A8
 // Imp
 ACTOR ValiantImpRPG : ValiantImp replaces ValiantImp
 {
-    Tag "Imp"
+    Tag "Super Imp"
 
 	States
 	{
@@ -906,7 +906,7 @@ ACTOR ValiantImpRPG : ValiantImp replaces ValiantImp
 // Demon
 ACTOR ValiantDemonRPG : ValiantDemon replaces ValiantDemon
 {
-    Tag "Demon"
+    Tag "Super Demon"
 
 	States
 	{
@@ -938,7 +938,7 @@ ACTOR ValiantDarkDemonRPG : ValiantDarkDemon replaces ValiantDarkDemon
 // Spectre
 ACTOR ValiantSpectreRPG : ValiantSpectre replaces ValiantSpectre
 {
-    Tag "Spectre"
+    Tag "Super Spectre"
 
 	States
 	{
@@ -986,7 +986,7 @@ ACTOR ValiantSuperMancubusRPG : ValiantSuperMancubus replaces ValiantSuperMancub
 // Pyro Demon
 ACTOR ValiantPyroDemonRPG : ValiantPyroDemon replaces ValiantPyroDemon
 {
-    Tag "Pyro Demon"
+    Tag "Pyro Knight"
 
 	States
 	{
@@ -1002,7 +1002,7 @@ ACTOR ValiantPyroDemonRPG : ValiantPyroDemon replaces ValiantPyroDemon
 // Arachnotron
 ACTOR ValiantArachnotronRPG : ValiantArachnotron replaces ValiantArachnotron
 {
-    Tag "Arachnotron"
+    Tag "Super Arachnotron"
 
 	States
 	{
@@ -1082,7 +1082,7 @@ ACTOR ValiantSpiderMastermindRPG : ValiantSpiderMastermind replaces ValiantSpide
 // Final Boss
 ACTOR ValiantFinalBossRPG : ValiantFinalBoss replaces ValiantFinalBoss
 {
-    Tag "Final Boss"
+    Tag "Super Vile"
 
 	States
 	{
@@ -1130,8 +1130,8 @@ ACTOR "Demon Smith RPG" : "Demon Smith" replaces "Demon Smith"
 	}
 }
 
-// --------------------------------------------------
-// 1024
+//-----------------------------------------------------
+// Hell Pike
 
 // Arachnorb
 ACTOR HPArachnorbRPG : HPArachnorb replaces HPArachnorb
@@ -1152,7 +1152,7 @@ ACTOR HPArachnorbRPG : HPArachnorb replaces HPArachnorb
 // Afrit
 ACTOR hpAfritRPG : hpAfrit replaces hpAfrit
 {
-    Tag "Afrit"
+    Tag "Mystic Afrit"
 
 	States
 	{
@@ -1165,7 +1165,7 @@ ACTOR hpAfritRPG : hpAfrit replaces hpAfrit
 	}
 }
 
-// Hell Pike
+
 ACTOR HellPikeRPG : HellPike replaces HellPike
 {
     Tag "Hell Pike"
@@ -1184,7 +1184,7 @@ ACTOR HellPikeRPG : HellPike replaces HellPike
 // Healer
 ACTOR HPHealerRPG : HPHealer replaces HPHealer
 {
-    Tag "Suicide Bomber"
+    Tag "Healer"
 
 	States
 	{

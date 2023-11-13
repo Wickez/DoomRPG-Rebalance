@@ -2,4 +2,5 @@
 excludemap VR
 
 // Exclude actors
-excludeactor HeckCube
+excludeactor HeckCube 
+excludeactor LightningOrb
