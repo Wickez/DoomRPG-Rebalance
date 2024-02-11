@@ -358,7 +358,7 @@ void DrawMainMenu()
         }
 
         SetFont("SMALLFONT");
-        HudMessage("Monsters: %d / %d", CurrentKills, TotalKills);
+        HudMessage("Kills: %d / %d", CurrentKills, TotalKills);
         EndHudMessage(HUDMSG_PLAIN, 0, (AllKills ? "Green" : "Brick"),       180.1, 121.0 + Y1, 0.05);
         HudMessage("Items: %d / %d", CurrentItems, TotalItems);
         EndHudMessage(HUDMSG_PLAIN, 0, (AllItems ? "Green" : "LightBlue"),   180.1, 135.0 + Y1, 0.05);
