@@ -79,7 +79,7 @@ Actor DRPGLootAnomalousMaterials : DRPGLoot
 // Briefcase Data
 Actor DRPGLootBriefcase : DRPGLoot
 {
-    Inventory.PickupMessage "You picked up a briefcase."
+    Inventory.PickupMessage "You picked up briefcase data."
     
     States
     {

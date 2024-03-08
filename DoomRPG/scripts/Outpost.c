@@ -4545,7 +4545,7 @@ NamedScript MapSpecial void DisassemblingDevice()
                     EndHudMessage(HUDMSG_FADEOUT, MENU_ID + 2, "White", X + 124.0, Y + 96.0, 0.05, 0.05);
 
                     SetFont("BIGFONT");
-                    HudMessage("Rare: %S", RareNames[CurrentRare]);
+                    HudMessage("Rarity: %S", RareNames[CurrentRare]);
                     EndHudMessage(HUDMSG_FADEOUT, MENU_ID + 3, "White", X + 164.0, Y + 132.0, 0.05, 0.05);
 
                     PrintSprite(ItemData[CategoriesData[CurrentCategory]][CurrentItem].Sprite.Name, 0, X + 240.0,  Y + 212.0, 0.05);
@@ -5104,7 +5104,7 @@ NamedScript MapSpecial void DemonAssemblingSanctuary()
         EndHudMessage(HUDMSG_FADEOUT, MENU_ID + 2, "White", X + 124.0, Y + 96.0, 0.05, 0.05);
 
         SetFont("BIGFONT");
-        HudMessage("Rare: %S", RareNames[CurrentRare]);
+        HudMessage("Rarity: %S", RareNames[CurrentRare]);
         EndHudMessage(HUDMSG_FADEOUT, MENU_ID + 3, "White", X + 164.0, Y + 132.0, 0.05, 0.05);
 
         PrintSprite(ItemData[CategoriesData[CurrentCategory]][CurrentItem].Sprite.Name, 0, X + 240.0,  Y + 212.0, 0.05);

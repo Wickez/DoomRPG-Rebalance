@@ -248,7 +248,7 @@ void DrawMainMenu()
     EndHudMessage(HUDMSG_PLAIN, 0, "Grey",          180.1, 175.0, 0.05);
     HudMessage("- STIM ITEMS -");
     EndHudMessage(HUDMSG_PLAIN, 0, "Grey",          0.1, 290.0, 0.05);
-    HudMessage("- TOXICITY -");
+    HudMessage("- TOXICITY/SET STIM -");
     EndHudMessage(HUDMSG_PLAIN, 0, "Grey",          180.1, 290.0, 0.05);
 
     // Draw Menu
@@ -3172,10 +3172,10 @@ void MenuHelp()
             break;
         case OMENU_ASSEMBLING:
             if (GetCVar("use_joystick") || GetActivatorCVar("drpg_deltatouch"))
-                HudMessage("Select Category: \Cd%S/%S\C-\nSelect Rare: \Cd%S + \Cd%S/%S\C-\nSelect Item: \Cd%S/%S\C-\nConfirm: \Cd%S + \Cd%S\C-\nExit: \Cd%S\C-",
+                HudMessage("Select Category: \Cd%S/%S\C-\nSelect Rarity: \Cd%S + \Cd%S/%S\C-\nSelect Item: \Cd%S/%S\C-\nConfirm: \Cd%S + \Cd%S\C-\nExit: \Cd%S\C-",
                            "Up", "Down", "Run", "Up", "Down", "Left", "Right", "Run", "Use", "Menu");
             else
-                HudMessage("Select Category: \Cd%jS/%jS\C-\nSelect Rare: \Cd%jS + \Cd%jS/%jS\C-\nSelect Item: \Cd%jS/%jS\C-\nConfirm: \Cd%jS + \Cd%jS\C-\nExit: \Cd%jS\C-",
+                HudMessage("Select Category: \Cd%jS/%jS\C-\nSelect Rarity: \Cd%jS + \Cd%jS/%jS\C-\nSelect Item: \Cd%jS/%jS\C-\nConfirm: \Cd%jS + \Cd%jS\C-\nExit: \Cd%jS\C-",
                            "+forward", "+back", "+speed", "+forward", "+back", "+moveleft", "+moveright", "+speed", "+use", "drpg_menu");
             EndHudMessage(HUDMSG_PLAIN, 0, "White", X, Y, 0.05);
             break;
