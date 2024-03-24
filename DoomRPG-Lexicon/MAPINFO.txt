@@ -29,7 +29,7 @@ include "Mapinfo/Singles.txt" // Single map wads.
 include "Mapinfo/1024.txt" //Congestion
 include "Mapinfo/1024_2.txt" //CLAUSTERPHOBIA 2
 include "Mapinfo/1024_3.txt"//CLAUSTERPHOBIA 1
-include "Mapinfo/1997_Tuneup_Project.txt"
+include "Mapinfo/1994_Tuneup_Project.txt"//1994 Tune-up Community Project
 include "Mapinfo/Alien_Vendetta.txt"
 include "Mapinfo/Ancient_Aliens.txt"
 include "Mapinfo/BX1.txt"
